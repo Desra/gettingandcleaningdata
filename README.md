@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Readme File - Course Project
-This is the course project for the Getting and Cleaning Data Coursera course. The R script, run_analysis.R, does the following:
+This is the course project for the Getting and Cleaning Data Coursera course. 
 
 The run_analysis.R script prepared for this project will do the following:
 
