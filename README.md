@@ -31,10 +31,10 @@ downloaded 59.7 MB
 ... Loading all data from train folder ...
 ... Loading all data from test folder ...
 ... Loading features.txt containing descriptive names
-... Loading activity_labels.txt containing descriptive namess
+... Loading activity_labels.txt containing descriptive names
 ... Merging activity data from train and test
 ... Merging subject data from train and test
-... Getting the name of features (label) that contain mean and std names
+... Merging all test and train data
 ... Merging all data - train, subject and features into one dataset ... done!
 ... Getting the name of features (label) that contain mean and std names
 ... Extracting measurement containing activity, subject and all labels containing mean and std
