@@ -15,15 +15,15 @@ The run_analysis.R script prepared for this project will do the following:
 10. Appropriately labels the data set with descriptive/meaningful variable names
 11. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The file name of the second, indepdent tidy data set is tidydataset.txt.
+The file name for the tidy data set is tidydataset.txt.
 
+Below is the output when running the run_analysis.R script
 > source('C:/wd/R_Analysis.R')
 ... Setting Working Directory
 ... Downloading file
 trying URL 'http://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 Content type 'application/zip' length 62556944 bytes (59.7 MB)
 downloaded 59.7 MB
-
 ... File downloaded from project site
 ... Unzipping archived file ... done!
 ... Archive file extracted
