@@ -42,7 +42,7 @@ test_subject <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = F
 message("... Loading features.txt containing descriptive names")
 features_name <- read.table("./UCI HAR Dataset/features.txt",head=FALSE)
 
-message("... Loading activity_labels.txt containing descriptive namess")
+message("... Loading activity_labels.txt containing descriptive names")
 activity_name <- read.table("./UCI HAR Dataset/activity_labels.txt",header = FALSE)
 
 #7. Merging all data into one data set
@@ -55,11 +55,11 @@ message("... Merging subject data from train and test")
 subject_all <- rbind(train_subject, test_subject)
 names(subject_all) <- c("subject")
 
-message("... Getting the name of features (label) that contain mean and std names")
+message("... Merging all test and train data")
 data_all <- rbind(train_data, test_data)
 names(data_all) <- features_name$V2
 
-message("... Merging all data - train, subject and features into one dataset ... done!")
+message("... Combining all data - train, subject and features into one dataset ... done!")
 merged_dataset <- cbind(activity_all,subject_all,data_all)
 
 #8. Extract data containing only mean and standard deviation columns of each measurement
